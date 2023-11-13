@@ -1,0 +1,33 @@
+body{
+background-color:aliceblue;
+}
+
+h3{
+    text-align: center;
+}
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .titulo-izquierda,
+  .titulo-centro,
+  .titulo-derecha {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .titulo-izquierda {
+    text-align: left;
+  }
+  
+  .titulo-derecha {
+    text-align: right;
+  }
+
+
+.titulo-pagina {
+color: greenyellow;
+font-size: 75px;
+}
+
